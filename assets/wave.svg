@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#E3BC52"/><stop offset=".5" stop-color="#E0607A"/><stop offset="1" stop-color="#4FD1C5"/></linearGradient>
+    <style>
+      .a { animation: m 9s linear infinite; } .b { animation: m 14s linear infinite reverse; } .c { animation: m 20s linear infinite; }
+      @keyframes m { to { transform: translateX(-640px); } }
+      @media (prefers-reduced-motion: reduce) { .a, .b, .c { animation: none; } }
+    </style>
+  </defs>
+  <path class="c" d="M0 70 q160.0 -26 320.0 0 t320.0 0 q160.0 -26 320.0 0 t320.0 0 q160.0 -26 320.0 0 t320.0 0 q160.0 -26 320.0 0 t320.0 0 V140 H0 Z" fill="url(#g)" opacity=".18"/>
+  <path class="b" d="M0 88 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 q80.0 -18 160.0 0 t160.0 0 V140 H0 Z" fill="url(#g)" opacity=".3"/>
+  <path class="a" d="M0 104 q160.0 -14 320.0 0 t320.0 0 q160.0 -14 320.0 0 t320.0 0 q160.0 -14 320.0 0 t320.0 0 q160.0 -14 320.0 0 t320.0 0 V140 H0 Z" fill="url(#g)" opacity=".55"/>
+</svg>

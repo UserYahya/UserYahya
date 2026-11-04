@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
+  <title id="t">Muhammad Yahya</title>
+  <desc id="d">Wikimedian at Wikimedia Bangladesh, building tools for open knowledge in Bangla.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E16"/><stop offset="1" stop-color="#121A28"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#E3BC52" stop-opacity=".30"/><stop offset="1" stop-color="#E3BC52" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#E0607A" stop-opacity=".26"/><stop offset="1" stop-color="#E0607A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#4FD1C5" stop-opacity=".18"/><stop offset="1" stop-color="#4FD1C5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="690" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#F3EEE3"/>
+      <stop offset=".45" stop-color="#E3BC52"/>
+      <stop offset=".7" stop-color="#FFE7A3"/>
+      <stop offset="1" stop-color="#E0607A"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1240 0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="core" cx=".35" cy=".3">
+      <stop offset="0" stop-color="#FFE7A3"/><stop offset=".55" stop-color="#E3BC52"/><stop offset="1" stop-color="#E0607A"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2A3446" stroke-width="1" stroke-opacity=".55"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".25"/></linearGradient>
+    <mask id="gridmask"><rect width="1280" height="420" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect width="1280" height="420" rx="20"/></clipPath>
+    
+    <clipPath id="c0"><rect x="106" y="270" height="40" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.1100;0.2100;0.2450;1.0000" values="0.0;532.4;532.4;0.0;0.0"/>
+    </rect></clipPath>
+    <clipPath id="c1"><rect x="106" y="270" height="40" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.2500;0.3600;0.4600;0.4950;1.0000" values="0.0;0.0;516.8;516.8;0.0;0.0"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="106" y="270" height="40" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.5000;0.6100;0.7100;0.7450;1.0000" values="0.0;0.0;376.4;376.4;0.0;0.0"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="106" y="270" height="40" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.7500;0.8600;0.9600;0.9950;1.0000" values="0.0;0.0;516.8;516.8;0.0;0.0"/>
+    </rect></clipPath>
+    <style>
+      .edge { stroke: #E3BC52; stroke-width: 1.5; stroke-opacity: .55; stroke-dasharray: 3 7; animation: flow 1.6s linear infinite; }
+      .node { fill: #0A0E16; stroke: #E3BC52; stroke-width: 2; animation: blink 3.6s ease-in-out infinite; }
+      .ring { transform-origin: 1050px 210px; animation: spin 22s linear infinite; }
+      .ring2 { transform-origin: 1050px 210px; animation: spin 34s linear infinite reverse; }
+      .halo { transform-origin: 1050px 210px; animation: halo 3.2s ease-out infinite; }
+      .rise { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+      @keyframes flow { to { stroke-dashoffset: -20; } }
+      @keyframes blink { 0%,100% { stroke-opacity: .45; } 50% { stroke-opacity: 1; fill: #E3BC52; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes halo { 0% { transform: scale(.85); opacity: .9; } 100% { transform: scale(1.9); opacity: 0; } }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)" mask="url(#gridmask)"/>
+    <circle cx="1040" cy="200" r="330" fill="url(#b1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 30;20 -20;0 0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="420" r="300" fill="url(#b2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;80 -40;-40 10;0 0" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="20" r="260" fill="url(#b3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;40 40;-20 10;0 0" dur="20s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- knowledge graph -->
+    <line class="edge" style="animation-delay:-0.00s" x1="905" y1="105" x2="1050" y2="210"/>
+<line class="edge" style="animation-delay:-0.37s" x1="1180" y1="92" x2="1050" y2="210"/>
+<line class="edge" style="animation-delay:-0.74s" x1="1215" y1="250" x2="1050" y2="210"/>
+<line class="edge" style="animation-delay:-1.11s" x1="960" y1="330" x2="1050" y2="210"/>
+<line class="edge" style="animation-delay:-1.48s" x1="1120" y1="360" x2="1050" y2="210"/>
+<line class="edge" style="animation-delay:-1.85s" x1="905" y1="105" x2="835" y2="215"/>
+<line class="edge" style="animation-delay:-2.22s" x1="905" y1="105" x2="1035" y2="55"/>
+<line class="edge" style="animation-delay:-2.59s" x1="1180" y1="92" x2="1255" y2="160"/>
+<line class="edge" style="animation-delay:-2.96s" x1="1215" y1="250" x2="1255" y2="160"/>
+<line class="edge" style="animation-delay:-3.33s" x1="960" y1="330" x2="835" y2="215"/>
+<line class="edge" style="animation-delay:-3.70s" x1="1120" y1="360" x2="1215" y2="250"/>
+<line class="edge" style="animation-delay:-4.07s" x1="960" y1="330" x2="880" y2="300"/>
+<line class="edge" style="animation-delay:-4.44s" x1="1035" y1="55" x2="1180" y2="92"/>
+    <circle class="node" style="animation-delay:-0.0s" cx="905" cy="105" r="9"/>
+<circle class="node" style="animation-delay:-0.6s" cx="1180" cy="92" r="11"/>
+<circle class="node" style="animation-delay:-1.2s" cx="1215" cy="250" r="8"/>
+<circle class="node" style="animation-delay:-1.8s" cx="960" cy="330" r="10"/>
+<circle class="node" style="animation-delay:-2.4s" cx="1120" cy="360" r="6"/>
+<circle class="node" style="animation-delay:-3.0s" cx="835" cy="215" r="6"/>
+<circle class="node" style="animation-delay:-3.6s" cx="1035" cy="55" r="5"/>
+<circle class="node" style="animation-delay:-4.2s" cx="1255" cy="160" r="5"/>
+<circle class="node" style="animation-delay:-4.8s" cx="880" cy="300" r="4"/>
+    <circle class="ring" cx="1050" cy="210" r="74" fill="none" stroke="#E3BC52" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="2 10"/>
+    <g class="ring2"><circle cx="1050" cy="210" r="100" fill="none" stroke="#E0607A" stroke-opacity=".25" stroke-width="1"/>
+      <circle cx="1150" cy="210" r="5" fill="#E0607A"/><circle cx="979" cy="139" r="3" fill="#4FD1C5"/></g>
+    <circle class="halo" cx="1050" cy="210" r="36" fill="none" stroke="#E3BC52" stroke-width="2"/>
+    <circle cx="1050" cy="210" r="36" fill="url(#core)"/>
+    <text x="1050" y="224" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Noto Serif', serif" font-size="40" font-weight="700" fill="#0A0E16">Y</text>
+
+    <!-- text -->
+    <g class="rise">
+      <text x="72" y="96" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="17" fill="#E3BC52" letter-spacing="1">~/profile <tspan fill="#9AA3B5">$</tspan> <tspan fill="#F3EEE3">whoami</tspan></text>
+    </g>
+    <g class="rise" style="animation-delay:.15s">
+      <text x="68" y="182" font-family="Georgia, 'Times New Roman', 'Noto Serif', serif" font-size="80" font-weight="700" fill="url(#name)" letter-spacing="-1">Muhammad Yahya</text>
+    </g>
+    <g class="rise" style="animation-delay:.3s">
+      <text x="72" y="232" font-family="'Noto Serif Bengali', 'Noto Sans Bengali', 'Nirmala UI', 'Bangla Sangam MN', 'Kohinoor Bangla', sans-serif" font-size="30" fill="#9AA3B5">মুহাম্মদ ইয়াহিয়া</text>
+    </g>
+    <g class="rise" style="animation-delay:.45s">
+      <text x="72" y="300" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="26" font-weight="700" fill="#E3BC52">&gt;</text>
+      
+    <text x="106" y="300" clip-path="url(#c0)" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="26" fill="#F3EEE3">Wikimedian at Wikimedia Bangladesh</text>
+    <rect y="278" width="13" height="27" fill="#E3BC52" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.1100;0.2100;0.2450;1.0000" values="109.0;641.4;641.4;109.0;109.0"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0000;0.2500" values="1;1;0"/>
+    </rect>
+    <text x="106" y="300" clip-path="url(#c1)" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="26" fill="#F3EEE3">building tools for open knowledge</text>
+    <rect y="278" width="13" height="27" fill="#E3BC52" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.2500;0.3600;0.4600;0.4950;1.0000" values="109.0;109.0;625.8;625.8;109.0;109.0"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2500;0.5000" values="0;1;0"/>
+    </rect>
+    <text x="106" y="300" clip-path="url(#c2)" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="26" fill="#F3EEE3">editing wikis since 2017</text>
+    <rect y="278" width="13" height="27" fill="#E3BC52" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.5000;0.6100;0.7100;0.7450;1.0000" values="109.0;109.0;485.4;485.4;109.0;109.0"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000;0.7500" values="0;1;0"/>
+    </rect>
+    <text x="106" y="300" clip-path="url(#c3)" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="26" fill="#F3EEE3">making Bangla wikis easier to run</text>
+    <rect y="278" width="13" height="27" fill="#E3BC52" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0.0000;0.7500;0.8600;0.9600;0.9950;1.0000" values="109.0;109.0;625.8;625.8;109.0;109.0"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7500;1.0000" values="0;1;0"/>
+    </rect>
+    </g>
+    <g class="rise" style="animation-delay:.6s" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" fill="#9AA3B5">
+      <circle cx="78" cy="360" r="5" fill="#4FD1C5"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="92" y="365">Dhaka, Bangladesh  ·  Wikipedia  ·  Wikidata  ·  Commons  ·  Wikivoyage</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="419" rx="20" fill="none" stroke="#E3BC52" stroke-opacity=".25"/>
+</svg>
